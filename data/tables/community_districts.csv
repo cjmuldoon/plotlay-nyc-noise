@@ -1,0 +1,72 @@
+cd,district,borough,reports_a_week,reports_2025,night_share,busiest_hour,busiest_hour_reports
+101,Manhattan 1,Manhattan,89.9,4688,46.3,Thu 22:00,2.7
+102,Manhattan 2,Manhattan,177.9,9268,49.7,Sat 23:00,5.7
+103,Manhattan 3,Manhattan,336.1,17511,56.0,Sat 23:00,11.5
+104,Manhattan 4,Manhattan,180.1,9386,47.3,Sat 23:00,5.5
+105,Manhattan 5,Manhattan,135.5,7061,37.8,Sat 22:00,3.2
+106,Manhattan 6,Manhattan,140.8,7340,41.0,Sun 00:00,3.3
+107,Manhattan 7,Manhattan,324.8,16930,27.2,Sat 22:00,6.2
+108,Manhattan 8,Manhattan,133.0,6934,42.0,Sat 23:00,2.8
+109,Manhattan 9,Manhattan,238.2,12416,52.3,Sat 23:00,6.9
+110,Manhattan 10,Manhattan,362.2,18880,48.3,Sat 23:00,8.4
+111,Manhattan 11,Manhattan,290.6,15145,48.2,Sat 23:00,6.0
+112,Manhattan 12,Manhattan,550.7,28691,51.5,Sat 23:00,15.6
+164,Manhattan park or airport (164),Manhattan,6.8,352,11.6,Fri 21:00,0.3
+201,Bronx 1,Bronx,185.2,9650,49.4,Sat 23:00,4.1
+202,Bronx 2,Bronx,100.3,5225,50.3,Sun 00:00,2.8
+203,Bronx 3,Bronx,240.1,12512,43.6,Sat 22:00,4.7
+204,Bronx 4,Bronx,363.0,18909,49.4,Sat 22:00,9.9
+205,Bronx 5,Bronx,278.6,14516,49.1,Sat 23:00,7.9
+206,Bronx 6,Bronx,195.2,10174,47.5,Sat 23:00,5.2
+207,Bronx 7,Bronx,288.7,15044,46.9,Sat 22:00,7.8
+208,Bronx 8,Bronx,183.2,9546,45.6,Sat 22:00,5.5
+209,Bronx 9,Bronx,234.8,12235,45.8,Sat 23:00,6.3
+210,Bronx 10,Bronx,94.9,4944,50.8,Sat 22:00,4.0
+211,Bronx 11,Bronx,192.2,10019,41.4,Sat 22:00,5.0
+212,Bronx 12,Bronx,204.7,10669,47.6,Sun 00:00,5.7
+226,Bronx park or airport (226),Bronx,6.3,326,50.6,Sun 22:00,0.6
+227,Bronx park or airport (227),Bronx,0.9,46,34.8,Sat 20:00,0.1
+228,Bronx park or airport (228),Bronx,2.4,124,36.3,Sun 14:00,0.2
+301,Brooklyn 1,Brooklyn,377.7,19680,52.5,Sat 23:00,15.8
+302,Brooklyn 2,Brooklyn,225.9,11774,42.3,Sat 23:00,5.8
+303,Brooklyn 3,Brooklyn,276.8,14426,51.5,Sat 23:00,8.5
+304,Brooklyn 4,Brooklyn,310.4,16172,55.9,Sat 23:00,12.4
+305,Brooklyn 5,Brooklyn,234.2,12207,49.4,Sat 23:00,6.2
+306,Brooklyn 6,Brooklyn,135.6,7069,39.1,Sat 22:00,3.9
+307,Brooklyn 7,Brooklyn,103.4,5389,47.0,Sat 23:00,3.6
+308,Brooklyn 8,Brooklyn,199.7,10411,43.2,Sat 23:00,5.2
+309,Brooklyn 9,Brooklyn,190.1,9909,45.3,Sat 22:00,4.8
+310,Brooklyn 10,Brooklyn,90.4,4710,46.5,Sat 22:00,2.7
+311,Brooklyn 11,Brooklyn,149.3,7780,45.6,Sat 23:00,3.9
+312,Brooklyn 12,Brooklyn,109.4,5705,45.8,Thu 22:00,2.3
+313,Brooklyn 13,Brooklyn,99.8,5201,48.8,Sat 22:00,2.8
+314,Brooklyn 14,Brooklyn,208.9,10891,47.1,Sun 00:00,4.4
+315,Brooklyn 15,Brooklyn,155.8,8122,44.7,Sat 22:00,3.6
+316,Brooklyn 16,Brooklyn,156.3,8144,48.7,Sun 00:00,3.5
+317,Brooklyn 17,Brooklyn,198.0,10316,47.4,Sat 22:00,5.1
+318,Brooklyn 18,Brooklyn,140.2,7306,52.3,Sat 22:00,4.6
+355,Brooklyn park or airport (355),Brooklyn,4.8,251,47.0,Sun 21:00,0.3
+356,Brooklyn park or airport (356),Brooklyn,1.2,62,41.9,Sun 22:00,0.1
+401,Queens 1,Queens,289.3,15075,51.8,Sat 22:00,8.2
+402,Queens 2,Queens,134.9,7028,53.5,Sat 23:00,4.7
+403,Queens 3,Queens,191.1,9957,53.5,Sat 23:00,6.8
+404,Queens 4,Queens,220.5,11493,48.3,Sat 22:00,5.4
+405,Queens 5,Queens,172.7,8997,56.8,Sat 23:00,7.8
+406,Queens 6,Queens,105.0,5471,41.4,Sat 22:00,2.2
+407,Queens 7,Queens,182.5,9512,54.1,Sun 00:00,6.8
+408,Queens 8,Queens,203.3,10602,28.5,Sat 23:00,3.1
+409,Queens 9,Queens,152.1,7926,50.9,Sat 23:00,6.8
+410,Queens 10,Queens,268.5,13987,32.7,Sat 23:00,7.8
+411,Queens 11,Queens,59.6,3108,57.2,Sun 00:00,2.5
+412,Queens 12,Queens,286.6,14932,45.1,Sun 00:00,8.3
+413,Queens 13,Queens,124.4,6483,49.0,Sun 00:00,4.3
+414,Queens 14,Queens,128.7,6708,41.0,Sat 22:00,3.8
+480,Queens park or airport (480),Queens,0.1,4,100.0,Fri 05:00,0.0
+481,Queens park or airport (481),Queens,11.8,612,46.7,Sun 22:00,0.5
+482,Queens park or airport (482),Queens,2.4,126,32.5,Sat 20:00,0.2
+483,Queens park or airport (483),Queens,0.1,3,0.0,Thu 08:00,0.0
+484,Queens park or airport (484),Queens,0.1,7,28.6,Sun 03:00,0.0
+501,Staten Island 1,Staten Island,140.9,7344,48.1,Sat 22:00,5.4
+502,Staten Island 2,Staten Island,85.4,4450,37.5,Sat 22:00,2.7
+503,Staten Island 3,Staten Island,70.8,3688,47.4,Sat 22:00,3.8
+595,Staten Island park or airport (595),Staten Island,0.5,28,53.6,Sun 08:00,0.1

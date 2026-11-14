@@ -1,0 +1,50 @@
+When and where New Yorkers report noise to 311, hour by hour through the week, in 2025.
+Copyright 2026 Craig Muldoon. Made with Plotlay (https://www.getplotlay.com).
+
+This repository contains code, data we made, and data from the sources below.
+
+CODE
+  The notebook and the Power BI project (its Power Query, DAX and report files) are licensed under the MIT licence
+  (LICENSE).
+
+DATA WE MADE
+  The tables in data/ (the year's noise reports after cleaning, the average week, the hexagons and their counts by hour
+  of the week, the community district summary) and the visuals are licensed under Creative Commons Attribution 4.0
+  International (LICENSE-DATA). Please credit: "NYC noise reports by hour of the week: Plotlay (getplotlay.com), from
+  NYC Open Data". They are made from the sources below.
+
+UPSTREAM SOURCES
+
+  NYC Open Data, opendata.cityofnewyork.us. The New York City Charter and Administrative Code (Chapter 5 of Title 23,
+  the Open Data Law) say:
+    "Such public data sets shall be made available without any registration requirement, license requirement or
+    restrictions on their use provided that the department may require a third party providing to the public any
+    public data set, or application utilizing such data set, to explicitly identify the source and version of the
+    public data set, and a description of any modifications made to such public data set." (Admin Code 23-502 (d))
+    "Public data sets made available on the web portal are provided for informational purposes. The city does not
+    warranty the completeness, accuracy, content or fitness for any particular purpose or use of any public data set
+    made available on the web portal, nor are any such warranties to be implied or inferred with respect to the public
+    data sets furnished therein." (Admin Code 23-504 (a))
+  Sources, versions and the changes made:
+    - 311 Service Requests from 2010 to Present, NYC Office of Technology and Innovation (311), dataset erm2-nwe9.
+      https://data.cityofnewyork.us/d/erm2-nwe9
+      Downloaded through its SODA API on 14 November 2026: every request created from 1 January to 31 December 2025
+      whose complaint type starts "Noise" (833,000 requests).
+      Changes: requests with no position left out; requests the Department of Environmental Protection closed as a
+      duplicate of an earlier complaint left out; repeats from the same address about the same complaint type in the
+      same clock hour counted once; each request given its hour of the week and a weight (1 over the number of times
+      that hour of the week came round in 2025); each placed by its position into a community district; addresses,
+      descriptions and resolution text left out.
+    - Community Districts, NYC Department of City Planning, dataset 5crt-au7u (downloaded 14 November 2026).
+      https://data.cityofnewyork.us/d/5crt-au7u
+      Changes: outlines simplified by about 2 m; names and a kind (district, or park or airport) added.
+    Nothing here implies endorsement by the City of New York or any of its agencies.
+
+  Base maps in the Plotlay project, the video and the app screenshots
+    Plotlay's Quiet and Ink base maps, drawn from OpenStreetMap data (c) OpenStreetMap contributors, available under the
+    Open Database Licence (ODbL), with tiles from the Protomaps planet build. The base maps appear only as pictures;
+    no OpenStreetMap data is in data/.
+
+POWER BI MAP CONTEXT
+  The Shape Map in powerbi/ draws the counties round the city with the water cut out: US Census Bureau, TIGERweb
+  counties and areal hydrography (public domain).

@@ -1,0 +1,71 @@
+table Hexagons
+	lineageTag: cf22508b-58e1-e05d-5eb3-6dd57bcc92da
+
+	/// The hour of the week the hexagon measures use: the one picked, or Saturday 23:00
+	measure 'Hour shown' = SELECTEDVALUE ( Hexagons[hour_of_week], "Sat 23:00" )
+		lineageTag: f839ce9c-8f0c-9928-93f2-4acc7d8085eb
+
+	/// Reports in that hour of an average week
+	measure 'Reports in the hour picked' =
+			VAR h = [Hour shown]
+			RETURN CALCULATE ( SUM ( Hexagons[reports_a_week] ), Hexagons[hour_of_week] = h )
+		formatString: #,0.00
+		lineageTag: 10a4e66c-c8dd-4359-2c7d-cefdeb7e3f94
+
+	column key
+		dataType: string
+		lineageTag: 80b74ecb-cbac-f8ab-e70a-e0cecf4cc8a2
+		summarizeBy: none
+		sourceColumn: key
+
+		annotation SummarizationSetBy = Automatic
+
+	column hour_of_week
+		dataType: string
+		sortByColumn: period_order
+		lineageTag: e54ffbfd-49cc-1064-7136-855c91d80e02
+		summarizeBy: none
+		sourceColumn: hour_of_week
+
+		annotation SummarizationSetBy = Automatic
+
+	column period_order
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 9bf85f66-405a-5eb0-afd1-acaf5a0fee65
+		summarizeBy: none
+		sourceColumn: period_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column places
+		dataType: int64
+		formatString: #,0
+		lineageTag: 900fb807-f9bc-2274-8bdd-881eab8f4985
+		summarizeBy: none
+		sourceColumn: places
+
+		annotation SummarizationSetBy = Automatic
+
+	column reports_a_week
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 45cb11a1-4997-a616-8059-c1e0d4c5013f
+		summarizeBy: none
+		sourceColumn: reports_a_week
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Hexagons = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("tables/hexagons_by_hour.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"key", "hour_of_week", "period_order", "places", "reports_a_week"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"key", type text}, {"hour_of_week", type text}, {"period_order", Int64.Type}, {"places", Int64.Type}, {"reports_a_week", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

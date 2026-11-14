@@ -1,0 +1,43 @@
+{
+ "requests": 833000,
+ "by_type_raw": {
+  "Noise - Residential": 463349,
+  "Noise - Street/Sidewalk": 173049,
+  "Noise - Commercial": 63958,
+  "Noise": 55721,
+  "Noise - Vehicle": 43223,
+  "Noise - Helicopter": 20554,
+  "Noise - Park": 10081,
+  "Noise - House of Worship": 3065
+ },
+ "no_position": 3052,
+ "dep_duplicates": 13244,
+ "repeats": 205049,
+ "top_place_requests": 115364,
+ "top_place_share_raw": 0.1385,
+ "top_place_borough": "BRONX",
+ "top_place_type": {
+  "Noise - Residential": 115363,
+  "Noise": 1
+ },
+ "top_place_reports": 1372,
+ "reports": 611655,
+ "by_type": {
+  "Noise - Residential": 298017,
+  "Noise - Street/Sidewalk": 150312,
+  "Noise - Commercial": 54957,
+  "Noise": 40799,
+  "Noise - Vehicle": 38808,
+  "Noise - Helicopter": 18119,
+  "Noise - Park": 8558,
+  "Noise - House of Worship": 2085
+ },
+ "hour_occurrences": {
+  "min": 51,
+  "max": 53,
+  "sun_02": 51,
+  "sun_01": 53,
+  "wed_00": 53
+ },
+ "outside_cd": 48
+}
