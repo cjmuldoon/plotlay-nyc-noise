@@ -47,7 +47,7 @@ All eight complaint types that start with "Noise" are included.
 3. **Analyse, Count into a grid or hexagons**: 1 km hexagons, each holding the **total of the weights**, the reports in an average week, for every one of the 168 hours.
 4. **Colour** the hexagons by the same breaks at every hour, and **Each point when zoomed in**: from zoom 14 the places themselves for the hour on the slider.
 5. **Charts, map pictures and a board** on the Analysis page: the heat map of the week, the busiest and quietest hours, the share at night by district.
-6. **Map video**: the map picture's frames, all 168 hours, on Plotlay's Quiet map by day and its Ink map with the Glow palette at night, changing at New York's average sunrise (06:29) and sunset (18:41) in 2025.
+6. **Map video**: the map picture's frames on Plotlay's dark Ink map with the Glow palette. The showcase's loop shows a quiet Tuesday dawn, then Friday 6 pm through to midnight on Saturday, hour by hour.
 
 ## What's here
 
