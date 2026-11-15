@@ -47,7 +47,7 @@ All eight complaint types that start with "Noise" are included.
 3. **Analyse, Count into a grid or hexagons**: 1 km hexagons, each holding the **total of the weights**, the reports in an average week, for every one of the 168 hours.
 4. **Colour** the hexagons by the same breaks at every hour, and **Each point when zoomed in**: from zoom 14 the places themselves for the hour on the slider.
 5. **Charts, map pictures and a board** on the Analysis page: the heat map of the week, the busiest and quietest hours, the share at night by district.
-6. **Map video**: the map picture's frames on Plotlay's dark Ink map with the Glow palette. The showcase's loop shows a quiet Tuesday dawn, then Friday 6 pm through to midnight on Saturday, hour by hour.
+6. **Map video**: the map picture's frames on Plotlay's dark Ink map with the Glow palette. The showcase's loop shows one run of 48 hours, Friday 7 am through to Sunday 6 am, hour by hour.
 
 ## What's here
 
